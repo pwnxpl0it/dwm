@@ -129,6 +129,7 @@ static Button buttons[] = {
 };
 
 static const char *const autostart[] = {
+    "sxhkd", NULL,
     "slstatus", NULL,
 	"dunst", NULL,
     "nitrogen","--restore",NULL,
