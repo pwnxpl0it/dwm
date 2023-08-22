@@ -1,5 +1,5 @@
 /* See LICENSE file for copyright and license details. */
-//#include "/home/darknights/.cache/wal/colors-wal-dwm.h"
+#include "/home/darknights/.cache/wal/colors-wal-dwm.h"
 #include "movestack.c"
 
 /* appearance */
@@ -19,14 +19,14 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#0b9ca3";
 static const char col_cyan[]        = "#040a0a";
-static const char *colors[][3]      = {
-    //[>               fg         bg         border   <]
-    [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-    [SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-};
+//static const char *colors[][3]      = {
+    ////[>               fg         bg         border   <]
+    //[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+    //[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+//};
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4","5","6"};
+static const char *tags[] = { "", "", "", "","",""};
 
 static const Rule rules[] = {
 	/* xprop(1):
